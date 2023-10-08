@@ -26,7 +26,7 @@ const EditPdfScreen = () => {
     return (
         <View>
             <Pressable style={styles.ButtonUpdate} onPress={handleSaveProfile}>
-                        <Text style={{ color: '#6667ab', justifyContent: 'center', fontWeight: 'bold' }}>Select file PDF</Text>
+                        <Text style={{ color: '#6667ab', justifyContent: 'center', fontWeight: 'bold' }}>Save</Text>
                     </Pressable>
             <ScrollView>
                 <View style={styles.container}>
